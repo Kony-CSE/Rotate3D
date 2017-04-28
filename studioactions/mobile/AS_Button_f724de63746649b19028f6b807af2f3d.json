@@ -1,0 +1,54 @@
+{
+    "AS_Button_f724de63746649b19028f6b807af2f3d": {
+        "id": "AS_Button_f724de63746649b19028f6b807af2f3d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form0231cd7611d6249",
+            "type": "forms",
+            "platform": null,
+            "KUID": "13729ff767ff4c78a6a0ddc5aff71a56"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ROTATE_ACTION_3D____5717f9b8082043d6a3e74c72dfb795bf",
+            "type": "ROTATE_ACTION_3D",
+            "itemType": "FORM",
+            "itemId": "Form0231cd7611d6249",
+            "widgetId": "CopyFlexContainer0e1e6f7338e8543",
+            "itemKUID": "13729ff767ff4c78a6a0ddc5aff71a56",
+            "widgetKUID": "ecae8ebeb3a04df7941c23c85f2f1bd4",
+            "animationObject": {
+                "anchorPoint": {
+                    "x": "50",
+                    "y": "50"
+                },
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate3d": "90",
+                "rotateX": "1",
+                "rotateY": "0",
+                "rotateZ": "0"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": "1",
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "500",
+                "direction": "kony.anim.DIRECTION_NONE"
+            },
+            "start": "Immediately",
+            "parentAnimation": "ROTATE_ACTION____094dfafa9f744998a6fb15e21f1ac69e",
+            "animationId": "ROTATE_ACTION_3D____5717f9b8082043d6a3e74c72dfb795bf",
+            "displayAnimationId": "ROTATE_ACTION_3D____5717f9b8082043d6a3e74c72dfb795bf",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "Form0231cd7611d6249.CopyFlexContainer0e1e6f7338e8543"
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "AS_Button_dbae2947ba564df49f69bae0d6111682": {
+        "id": "AS_Button_dbae2947ba564df49f69bae0d6111682",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form0231cd7611d6249",
+            "type": "forms",
+            "platform": "iphone",
+            "KUID": "b7e246bbec5b4ab9a6505c295c6908c3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "___ide_onClick_d9951152d59f41b286dcedce5c672a40",
+            "type": "ROTATE_ACTION_3D",
+            "itemType": "FORM",
+            "itemId": "Form0231cd7611d6249",
+            "widgetId": "CopyFlexContainer0e1e6f7338e8543",
+            "itemKUID": "b7e246bbec5b4ab9a6505c295c6908c3",
+            "widgetKUID": "c04450629503427aab4a08777ca68229",
+            "animationObject": {
+                "anchorPoint": {
+                    "x": "50",
+                    "y": "50"
+                },
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate3d": "90",
+                "rotateX": "1",
+                "rotateY": "0",
+                "rotateZ": "0",
+                "perspective": 375
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "500"
+            },
+            "start": "Immediately",
+            "parentAnimation": "ROTATE_ACTION____094dfafa9f744998a6fb15e21f1ac69e",
+            "animationId": "ROTATE_ACTION_3D____5717f9b8082043d6a3e74c72dfb795bf",
+            "displayAnimationId": "ROTATE_ACTION_3D____5717f9b8082043d6a3e74c72dfb795bf",
+            "forkedPlatform": "iphone",
+            "callbackType": null,
+            "widgetPath": "Form0231cd7611d6249.CopyFlexContainer0e1e6f7338e8543"
+        }]
+    }
+}
